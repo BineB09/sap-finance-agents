@@ -1,5 +1,6 @@
 import { SiteNav } from "@/components/site-nav";
 import { SiteFooter } from "@/components/site-footer";
+import { CookieReset } from "@/components/cookie-reset";
 
 export const metadata = {
   title: "Datenschutz – SAP Finance Agents",
@@ -365,6 +366,14 @@ export default function Datenschutz() {
           </Section>
 
           <div className="h-px bg-[#E5D9C0] mb-10" />
+
+          <div className="bg-[#F5EFE0] border border-[#E5D9C0] rounded-xl px-5 py-4 mb-6">
+            <p className="text-[#2A1F0E] text-sm font-medium mb-1">Cookie-Einstellungen ändern</p>
+            <p className="text-[#6B5940] text-sm mb-3">
+              Sie können Ihre Einwilligung jederzeit widerrufen oder Ihre Cookie-Auswahl anpassen.
+            </p>
+            <CookieReset />
+          </div>
 
           <p className="text-[#9A7D5A] text-sm">
             Diese Datenschutzerklärung wurde nach bestem Wissen und Gewissen erstellt und sollte vor
